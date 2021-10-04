@@ -1,7 +1,7 @@
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap');
 * {
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 html,
@@ -129,7 +129,7 @@ main .main-container .img-container {
 }
 
 main .main-container .img-container .img-fluid {
-  background: url("/images/image-header-mobile.jpg") no-repeat center/cover;
+  background: url('./images/image-header-mobile.jpg') no-repeat center/cover;
   height: 100%;
   width: 100%;
   opacity: 0.5;
@@ -139,7 +139,7 @@ main .main-container .img-container .img-fluid {
 main .main-container .text-container {
   margin: 6vh 9vw;
   text-align: center;
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
   color: white;
 }
 
@@ -167,8 +167,8 @@ main .main-container .text-container .stats-container {
   margin-top: 12vh;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
 }
 
 main .main-container .text-container .stats-container .box {
@@ -187,9 +187,9 @@ main .main-container .text-container .stats-container p {
   font-size: 0.9rem;
   letter-spacing: 0.1rem;
   -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
-  font-family: "Lexend Deca", sans-serif;
+  -ms-flex-pack: space-evenly;
+  justify-content: space-evenly;
+  font-family: 'Lexend Deca', sans-serif;
 }
 
 footer {
@@ -222,8 +222,8 @@ footer {
   }
   main {
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
     height: auto;
   }
   main .main-container {
@@ -231,8 +231,8 @@ footer {
     height: 56vh;
     -webkit-box-orient: horizontal;
     -webkit-box-direction: reverse;
-        -ms-flex-direction: row-reverse;
-            flex-direction: row-reverse;
+    -ms-flex-direction: row-reverse;
+    flex-direction: row-reverse;
     border-radius: 9px;
     margin-top: 13%;
   }
@@ -263,12 +263,12 @@ footer {
   main .main-container .text-container .stats-container {
     text-align: start;
     -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
     margin-top: auto;
   }
   main .main-container .text-container .stats-container h2 {
