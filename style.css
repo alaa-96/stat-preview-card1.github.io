@@ -1,0 +1,282 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap");
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  vertical-align: baseline;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+body {
+  font-size: 15px;
+  background: #090b1a;
+}
+
+main .main-container {
+  border-radius: 9px;
+  margin: 0%;
+  padding: 0%;
+  background: #1b1938;
+}
+
+main .main-container .img-container {
+  background: rgba(110, 0, 179, 0.712);
+  border-radius: 9px 9px 0px 0px;
+  height: 50vh;
+}
+
+main .main-container .img-container .img-fluid {
+  background: url("/images/image-header-mobile.jpg") no-repeat center/cover;
+  height: 100%;
+  width: 100%;
+  opacity: 0.5;
+  border-radius: 9px 9px 0px 0px;
+}
+
+main .main-container .text-container {
+  margin: 6vh 9vw;
+  text-align: center;
+  font-family: "Inter", sans-serif;
+  color: white;
+}
+
+main .main-container .text-container h1 {
+  font-weight: 700;
+  font-size: 2rem;
+  margin-bottom: 2vh;
+}
+
+main .main-container .text-container h1 #violet {
+  color: #aa5cdb;
+}
+
+main .main-container .text-container p {
+  text-indent: 1.1rem;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.75);
+  line-height: 1.7rem;
+  font-size: 1rem;
+  opacity: 0.8;
+  margin-bottom: 7vh;
+}
+
+main .main-container .text-container .stats-container {
+  margin-top: 12vh;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+main .main-container .text-container .stats-container .box {
+  text-align: center;
+}
+
+main .main-container .text-container .stats-container h2 {
+  font-weight: 700;
+  font-size: 1.7rem;
+  text-align: center;
+}
+
+main .main-container .text-container .stats-container p {
+  text-indent: 0%;
+  text-transform: uppercase;
+  font-size: 0.9rem;
+  letter-spacing: 0.1rem;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  font-family: "Lexend Deca", sans-serif;
+}
+
+footer {
+  text-align: center;
+  margin: 5vh 20vw;
+  color: rgba(255, 255, 255, 0.75);
+}
+
+@media only screen and (min-width: 568px) {
+  main .main-container .img-container {
+    height: 100vh;
+  }
+  main .main-container .img-container .img-fluid {
+    height: 100%;
+  }
+}
+
+@media only screen and (min-width: 812px) {
+  main .main-container .img-container {
+    height: 120vh;
+  }
+  main .main-container .img-container .img-fluid {
+    height: 100%;
+  }
+}
+
+@media only screen and (min-width: 1366px) {
+  body {
+    height: auto;
+  }
+  main {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    height: auto;
+  }
+  main .main-container {
+    width: 78vw;
+    height: 56vh;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: row-reverse;
+            flex-direction: row-reverse;
+    border-radius: 9px;
+    margin-top: 13%;
+  }
+  main .main-container .img-container {
+    width: 50%;
+    height: 100%;
+    float: right;
+    border-radius: 0px 9px 9px 0px;
+  }
+  main .main-container .img-container .img-fluid {
+    height: 100%;
+    border-radius: 0px 9px 9px 0px;
+  }
+  main .main-container .text-container {
+    margin: 0%;
+    width: 50%;
+    height: 100%;
+    text-align: start;
+    padding: 10vh;
+  }
+  main .main-container .text-container h1 {
+    font-size: 2.2rem;
+  }
+  main .main-container .text-container p {
+    text-align: start;
+    text-indent: 0%;
+  }
+  main .main-container .text-container .stats-container {
+    text-align: start;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    margin-top: auto;
+  }
+  main .main-container .text-container .stats-container h2 {
+    font-size: 1.5rem;
+    text-align: start;
+  }
+  main .main-container .text-container .stats-container p {
+    font-size: 0.8rem;
+  }
+}
+/*# sourceMappingURL=style.css.map */
