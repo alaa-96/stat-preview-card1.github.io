@@ -1,1 +1,0 @@
-'permissionsPolicyHeader' => null,
