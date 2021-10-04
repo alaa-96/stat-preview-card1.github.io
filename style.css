@@ -129,7 +129,7 @@ main .main-container .img-container {
 }
 
 main .main-container .img-container .img-fluid {
-  background: url("/images/image-header-mobile.jpg") no-repeat center/cover;
+  background: url("./images/image-header-mobile.jpg") no-repeat center/cover;
   height: 100%;
   width: 100%;
   opacity: 0.5;
